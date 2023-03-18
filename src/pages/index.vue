@@ -1,23 +1,40 @@
 <template>
   <div id="App">
-     <p>Good luck!</p>
-    <span>
-      {{ test }}
-    </span>
+     <div class="container-fluid">
+        <div class="container-wrapper">
+
+           <div class="container-header">
+             <Header></Header>
+           </div>
+
+           <div class="container-body">
+
+           </div>
+
+           <div class="container-footer">
+             <Footer></Footer>
+           </div>
+
+       </div>
+
+     </div>
   </div>
 </template>
 
 <script>
+import Header from "~/components/Header/Header.vue";
+import Footer from "~/components/Footer/Footer.vue";
 
 export default {
   name: "App",
   data() {
     return {
-      test: "ddddddddd"
+
     }
   },
   components: {
-
+    Header,
+    Footer
   }
 }
 
