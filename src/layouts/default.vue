@@ -25,24 +25,21 @@
 import Header from "~/components/Header/Header.vue";
 import Footer from "~/components/Footer/Footer.vue";
 
-export default {
-  name: "App",
-  data() {
-    return {
+ export default {
+    name: "App",
+    data() {
+       return {
 
+      }
+    },
+    components: {
+      Header,
+      Footer
     }
-  },
-  components: {
-    Header,
-    Footer
-  }
-}
-
+ }
 
 </script>
 
 <style scoped>
-
-
 
 </style>
