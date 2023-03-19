@@ -93,11 +93,6 @@
 </script>
 
 <style scoped>
- /*.table .th,*/
- /*.table td {*/
- /*   border: 1px solid #333333;*/
- /*}*/
-
  .table .thead .tr {
    background: #dbe1db;
  }
